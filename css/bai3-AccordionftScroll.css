@@ -1,0 +1,55 @@
+h1.tieude {
+    font-family: "Josefin Slab",sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.menu h3 {
+    font-family: "Josefin Slab",sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    display: block;
+    /* align-items: flex-start; */
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu {
+    max-width: 600px;
+    margin: 70px auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c1c0c0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+i.fa.fa-chevron-down {
+    font-size: 25px;
+    font-style: normal;
+    color: rgba(45, 45, 45, 0.48);
+    transition: 0.4s;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.menu p {
+    font-size: 14px;
+    font-family: "Josefin Slab",sans-serif;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.menu img {
+    width: 120px;
+    height: auto;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 5px;
+    border: 1px solid #cac7c7;
+    border-radius: 5px;
+    border-image: none;
+}
